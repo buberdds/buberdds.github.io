@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8' />
+    <meta name="description" content="Rooting Asus Transformer TF300T on Android 4.1 Jelly Bean" />
+    <meta name="author" content="Michał Zielenkiewicz" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Rooting Asus Transformer TF300T on Android 4.1 Jelly Bean</title>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/style.css">
+    <link rel="alternate" type="application/rss+xml" title="Michał Zielenkiewicz" href="/feed/" />
+    <link rel="canonical" href="http://zielenkiewicz.info/2012/09/01/rooting-asus-transformer-tf300t-android-4.1-Jelly-Bean" />
+    <script src="/js/html5shiv.js"></script>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div id="header_wrap" class="outer">
+    <header class="inner" role="banner">
+        <a id="forkme_banner" href="https://github.com/buberdds">View on GitHub</a>
+
+        <h1><a href="/">Michał Zielenkiewicz</a></h1>
+        <h2><a href="/">Personal blog</a></h2>
+
+    </header>
+</div>
+
+<!-- MAIN CONTENT -->
+<div id="main_content_wrap" class="outer">
+    <section id="main_content" class="inner">
+        <h3>Rooting Asus Transformer TF300T on Android 4.1 Jelly Bean</h3>
+
+        <article role="main">
+    <time datetime="Sat Sep 01 00:00:00 +0200 2012" pubdate>Published Sep 01 2012</time>
+    <h4>Downlod Unlock device app</h4>
+
+
+<p>Download official <abbr>Unlock app</abbr> from <a href="http://support.asus.com.tw/download/" target="_blank">Asus website</a>.
+You will find apk under <abbr>Utilities</abbr> category. Unlocker for Ice Cream Sandwich work on Jelly Bean too. BTW you will no longer be covered under the warranty and your tablet and can no longer receive ASUS software updates.</p>
+
+<h4>Download Superuser</h4>
+
+
+<p>You can find it on <a href="http://androidsu.com/superuser/" target="_blank">AndroidSU.com</a>.<br /> You have to get 3.2 version: Superuser-3.2-RC3-arm-signed.zip.</p>
+
+<h4>Download TWRP</h4>
+
+
+<p>On the <a href="http://teamw.in/project/twrp2" target="_blank">Team Win Recovery Project</a> select TF300T device and download:<br/><abbr>openrecovery-twrp-2.2.2.0-tf300t-JB.blob</abbr>, rename file to twrp.blob.</p>
+
+<h4>Android Debug Bridge (adb)</h4>
+
+
+<p>If you don't have Android SDK already installed on your computer you can download it from <a href="http://developer.android.com/sdk/index.html" target="_blank">here</a>.
+Commands: adb and fastoot are located in platform-tools sdk's subfolder. Place all files:</p>
+
+<pre>
+<code>
+    UnLock_Device_App_V7.apk
+    Superuser-3.2-RC3-arm-signed.zip
+    twrp.blob
+</code>
+</pre>
+
+
+<p>in that folder (or add to platform-tools to PATH).</p>
+
+<h4>Pushing files</h4>
+
+
+<p>Connect to your tablet using adb and push unlock app and superuser.</p>
+
+<pre>
+<code>
+    adb devices
+    adb push UnLock_Device_App_V7.apk /sdcard/
+    adb push Superuser-3.2-RC3-arm-signed.zip /sdcard/
+</code>
+</pre>
+
+
+<p>It's time to run unlock app on your Transformer. After unlocking it's time to use fastboot and install TWRP.</p>
+
+<p>Turn off your device and boot to fastboot (power on while holding volume down, then select the usb icon and hit volume up to confirm). The device will now be in fastboot mode. Plug the device into your computer and type:</p>
+
+<pre>
+<code>
+    fastboot -i 0x0B05 flash recovery twrp.blob
+</code>
+</pre>
+
+
+<p>When the progress barwill get filled up, press and hold the Volume Up + Power buttons together to reboot.</p>
+
+<h4>Boot into TWRP recovery.</h4>
+
+
+<p>Shutdown tablet and run it pressing pressing and hold Volume Down + Power. Choose RCK to run TWRP - just press the Volume Up.
+Select install and choose Superuser-3.2-RC3-arm-signed.zip from sdcard. Select it, install and reboot system.</p>
+
+<h4>Finall hit</h4>
+
+
+<p>Install <a href="https://play.google.com/store/apps/details?id=eu.chainfire.supersu" target="_blank">SuperSU</a> app on your tablet.</p>
+
+    <p>
+    	<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</p>
+</article>
+
+
+    </section>
+</div>
+
+<!-- FOOTER  -->
+<div id="footer_wrap" class="outer">
+    <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+        <p>Copyright &copy; Michał Zielenkiewicz | <a href="/feed/">RSS feed</a>.</p>
+    </footer>
+</div>
+
+</body>
+</html>

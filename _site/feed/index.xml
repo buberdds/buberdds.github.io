@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Michał Zielenkiewicz, Front End Developer</title>
+ <link href="http://zielenkiewicz.info/feed/" rel="self"/>
+ <link href="http://zielenkiewicz.info/"/>
+ <updated>2012-09-23T13:40:25+02:00</updated>
+ <id>http://zielenkiewicz.info/</id>
+ <author>
+   <name>Michał Zielenkiewicz</name>
+   <email>michziel@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Rooting Asus Transformer TF300T on Android 4.1 Jelly Bean</title>
+   <link href="http://zielenkiewicz.info/2012/09/01/rooting-asus-transformer-tf300t-android-4.1-Jelly-Bean"/>
+   <updated>2012-09-01T00:00:00+02:00</updated>
+   <id>http://zielenkiewicz.info/2012/09/01/rooting-asus-transformer-tf300t-android-4.1-Jelly-Bean</id>
+   <content type="html">&lt;h4&gt;Downlod Unlock device app&lt;/h4&gt;
+
+
+&lt;p&gt;Download official &lt;abbr&gt;Unlock app&lt;/abbr&gt; from &lt;a href=&quot;http://support.asus.com.tw/download/&quot; target=&quot;_blank&quot;&gt;Asus website&lt;/a&gt;.
+You will find apk under &lt;abbr&gt;Utilities&lt;/abbr&gt; category. Unlocker for Ice Cream Sandwich work on Jelly Bean too. BTW you will no longer be covered under the warranty and your tablet and can no longer receive ASUS software updates.&lt;/p&gt;
+
+&lt;h4&gt;Download Superuser&lt;/h4&gt;
+
+
+&lt;p&gt;You can find it on &lt;a href=&quot;http://androidsu.com/superuser/&quot; target=&quot;_blank&quot;&gt;AndroidSU.com&lt;/a&gt;.&lt;br /&gt; You have to get 3.2 version: Superuser-3.2-RC3-arm-signed.zip.&lt;/p&gt;
+
+&lt;h4&gt;Download TWRP&lt;/h4&gt;
+
+
+&lt;p&gt;On the &lt;a href=&quot;http://teamw.in/project/twrp2&quot; target=&quot;_blank&quot;&gt;Team Win Recovery Project&lt;/a&gt; select TF300T device and download:&lt;br/&gt;&lt;abbr&gt;openrecovery-twrp-2.2.2.0-tf300t-JB.blob&lt;/abbr&gt;, rename file to twrp.blob.&lt;/p&gt;
+
+&lt;h4&gt;Android Debug Bridge (adb)&lt;/h4&gt;
+
+
+&lt;p&gt;If you don't have Android SDK already installed on your computer you can download it from &lt;a href=&quot;http://developer.android.com/sdk/index.html&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.
+Commands: adb and fastoot are located in platform-tools sdk's subfolder. Place all files:&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;code&gt;
+    UnLock_Device_App_V7.apk
+    Superuser-3.2-RC3-arm-signed.zip
+    twrp.blob
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+&lt;p&gt;in that folder (or add to platform-tools to PATH).&lt;/p&gt;
+
+&lt;h4&gt;Pushing files&lt;/h4&gt;
+
+
+&lt;p&gt;Connect to your tablet using adb and push unlock app and superuser.&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;code&gt;
+    adb devices
+    adb push UnLock_Device_App_V7.apk /sdcard/
+    adb push Superuser-3.2-RC3-arm-signed.zip /sdcard/
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+&lt;p&gt;It's time to run unlock app on your Transformer. After unlocking it's time to use fastboot and install TWRP.&lt;/p&gt;
+
+&lt;p&gt;Turn off your device and boot to fastboot (power on while holding volume down, then select the usb icon and hit volume up to confirm). The device will now be in fastboot mode. Plug the device into your computer and type:&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;code&gt;
+    fastboot -i 0x0B05 flash recovery twrp.blob
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+&lt;p&gt;When the progress barwill get filled up, press and hold the Volume Up + Power buttons together to reboot.&lt;/p&gt;
+
+&lt;h4&gt;Boot into TWRP recovery.&lt;/h4&gt;
+
+
+&lt;p&gt;Shutdown tablet and run it pressing pressing and hold Volume Down + Power. Choose RCK to run TWRP - just press the Volume Up.
+Select install and choose Superuser-3.2-RC3-arm-signed.zip from sdcard. Select it, install and reboot system.&lt;/p&gt;
+
+&lt;h4&gt;Finall hit&lt;/h4&gt;
+
+
+&lt;p&gt;Install &lt;a href=&quot;https://play.google.com/store/apps/details?id=eu.chainfire.supersu&quot; target=&quot;_blank&quot;&gt;SuperSU&lt;/a&gt; app on your tablet.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>
