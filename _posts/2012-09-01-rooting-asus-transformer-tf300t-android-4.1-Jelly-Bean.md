@@ -4,7 +4,7 @@ title: Rooting Asus Transformer TF300T on Android 4.1 Jelly Bean
 desc: Rooting Asus Transformer TF300T on Android 4.1 Jelly Bean
 ---
 
-<h4>Downlod Unlock device app</h4>
+<h4>Download Unlock device app</h4>
 
 Download official <abbr>Unlock app</abbr> from <a href="http://support.asus.com.tw/download/" target="_blank">Asus website</a>.
 You will find apk under <abbr>Utilities</abbr> category. Unlocker for Ice Cream Sandwich work on Jelly Bean too. BTW you will no longer be covered under the warranty and your tablet and can no longer receive ASUS software updates.
@@ -41,7 +41,7 @@ Connect to your tablet using adb and push unlock app and superuser.
 </code>
 </pre>
 
-It's time to run unlock app on your Transformer. After unlocking it's time to use fastboot and install TWRP.
+It's time to run unlock app on your Transformer. After unlocking you have to use fastboot command and install TWRP.
 
 Turn off your device and boot to fastboot (power on while holding volume down, then select the usb icon and hit volume up to confirm). The device will now be in fastboot mode. Plug the device into your computer and type:
 
@@ -51,12 +51,12 @@ Turn off your device and boot to fastboot (power on while holding volume down, t
 </code>
 </pre>
 
-When the progress barwill get filled up, press and hold the Volume Up + Power buttons together to reboot.
+When the progress bar will get filled up, press and hold the Volume Up + Power buttons together to reboot.
 
 <h4>Boot into TWRP recovery.</h4>
 
 Shutdown tablet and run it pressing pressing and hold Volume Down + Power. Choose RCK to run TWRP - just press the Volume Up.
-Select install and choose Superuser-3.2-RC3-arm-signed.zip from sdcard. Select it, install and reboot system.
+Select Install option and choose Superuser-3.2-RC3-arm-signed.zip from sdcard. Select zip, install and reboot system.
 
 <h4>Finall hit</h4>
 
