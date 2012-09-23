@@ -1,2 +1,2 @@
 Allow: /
-Sitemap: http://zielenkiewicz.info/sitemap.xml
+Sitemap: http://buberdds.github.com/sitemap.xml

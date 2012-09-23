@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Michał Zielenkiewicz, Front End Developer</title>
- <link href="http://zielenkiewicz.info/feed/" rel="self"/>
- <link href="http://zielenkiewicz.info/"/>
- <updated>2012-09-23T13:40:25+02:00</updated>
- <id>http://zielenkiewicz.info/</id>
+ <link href="http://buberdds.github.com/feed/" rel="self"/>
+ <link href="http://buberdds.github.com/"/>
+ <updated>2012-09-23T16:02:13+02:00</updated>
+ <id>http://buberdds.github.com/</id>
  <author>
    <name>Michał Zielenkiewicz</name>
    <email>michziel@gmail.com</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Rooting Asus Transformer TF300T on Android 4.1 Jelly Bean</title>
-   <link href="http://zielenkiewicz.info/2012/09/01/rooting-asus-transformer-tf300t-android-4.1-Jelly-Bean"/>
+   <link href="http://buberdds.github.com/2012/09/01/rooting-asus-transformer-tf300t-android-4.1-Jelly-Bean"/>
    <updated>2012-09-01T00:00:00+02:00</updated>
-   <id>http://zielenkiewicz.info/2012/09/01/rooting-asus-transformer-tf300t-android-4.1-Jelly-Bean</id>
+   <id>http://buberdds.github.com/2012/09/01/rooting-asus-transformer-tf300t-android-4.1-Jelly-Bean</id>
    <content type="html">&lt;h4&gt;Downlod Unlock device app&lt;/h4&gt;
 
 
