@@ -13,7 +13,7 @@ Moreover, you can't adjust look of html elements to your project, because proper
 
 In the <a href="http://www.developer.nokia.com/Resources/Library/Web/nokia-browsers/symbian-browsers/default-css-style-sheet.html" target="_blank">Symbian Browser spec</a> you can find that -webkit-appearance property has a value of push-button.
 
-To resolve problem you have to change it to initial, and other CSS properties will work as you expecting.
+To resolve problem you have to change its value to <abbr>initial</abbr>, and other CSS properties will work as you expecting.
 
 <pre>
 <code>
