@@ -6,8 +6,8 @@ desc: Rooting Asus Transformer TF300T on Android 4.1 Jelly Bean
 
 <h4>Download Unlock device app</h4>
 
-Download official <abbr>Unlock app</abbr> from <a href="http://support.asus.com.tw/download/" target="_blank">Asus website</a>.
-You will find apk under <abbr>Utilities</abbr> category. Unlocker for Ice Cream Sandwich work on Jelly Bean too. BTW you will no longer be covered under the warranty and your tablet and can no longer receive ASUS software updates.
+Download official <code>Unlock app</code> from <a href="http://support.asus.com.tw/download/" target="_blank">Asus website</a>.
+You will find apk under <code>Utilities</code> category. Unlocker for Ice Cream Sandwich work on Jelly Bean too. BTW you will no longer be covered under the warranty and your tablet and can no longer receive ASUS software updates.
 
 <h4>Download Superuser</h4>
 
@@ -15,7 +15,7 @@ You can find it on <a href="http://androidsu.com/superuser/" target="_blank">And
 
 <h4>Download TWRP</h4>
 
-On the <a href="http://teamw.in/project/twrp2" target="_blank">Team Win Recovery Project</a> select TF300T device and download:<br/><abbr>openrecovery-twrp-2.2.2.0-tf300t-JB.blob</abbr>, rename file to twrp.blob.
+On the <a href="http://teamw.in/project/twrp2" target="_blank">Team Win Recovery Project</a> select TF300T device and download:<br/><code>openrecovery-twrp-2.2.2.0-tf300t-JB.blob</code>, rename file to twrp.blob.
 
 <h4>Android Debug Bridge (adb)</h4>
 
