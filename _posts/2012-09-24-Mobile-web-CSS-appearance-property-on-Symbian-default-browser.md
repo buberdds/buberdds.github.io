@@ -11,7 +11,7 @@ By default they use -webkit-appearance property. This property was instoduced in
 In theory, the appearance property is used to make an element look like a standard user interface element on the platform, but it doesn't work that way at all.
 Moreover, you can't adjust look of html elements to your project, because property, such as background is ignored.
 
-In the Symbian Browser spec <a href="http://www.developer.nokia.com/Resources/Library/Web/nokia-browsers/symbian-browsers/default-css-style-sheet.html" target="_blank"> you can find that -webkit-appearance property has a value of push-button.
+In the <a href="http://www.developer.nokia.com/Resources/Library/Web/nokia-browsers/symbian-browsers/default-css-style-sheet.html" target="_blank">Symbian Browser spec</a> you can find that -webkit-appearance property has a value of push-button.
 
 To resolve problem you have to change it to initial, and other CSS properties will work as you expecting.
 
