@@ -6,7 +6,8 @@ desc: Multiple user accounts inside Android 4.1
 
 After rooting Android Jelly Bean device you will gain access to hidden OS functionality: user profiles.
 It's hidden because it's unfinished. Some apps may not work, like Google Chrome for instance. It's always crashing,
-while running by secondary user. You cannot hide apps for a guest account etc.
+while running by secondary user. You cannot hide apps for a guest account etc. Visually you can not determine what user is currently active and
+notifications and recent apps do not clear while switching between users.
 Jelly Bean’s user profiles are far away from perfect, but still they are usefull.
 
 To manage user accounts you will need
@@ -21,6 +22,7 @@ Now you can create a new user typing:
 </code>
 </pre>
 Apps and some system settings are in /data/user/USER_ID.
+The new profile is limited compared to the original. Limitations can be seen in the settings menu.
 
 You can switch between users via command line:
 <pre>
