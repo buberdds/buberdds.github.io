@@ -15,7 +15,7 @@ To manage user accounts you will need
 First of all, switch to the root account using <code>su</code> command.
 You can check your user and group typing: <code>id</code>.
 
-Now you can create a new user typing:
+Now you can create a new user:
 <pre>
 <code>
     pm create-user USER_NAME
