@@ -27,7 +27,7 @@ The new profile is limited compared to the original. Limitations can be seen in 
 You can switch between users via command line:
 <pre>
 <code>
-    am switch-user 1
+    am switch-user USER_ID
 </code>
 </pre>
 
@@ -40,4 +40,9 @@ To get list of all users on current device, type:
 </code>
 </pre>
 
-To delete user pass the user id (integer) to <code>pm remove-user</code> command.
+To delete user pass the user id to <code>pm remove-user</code> command.
+<pre>
+<code>
+    pm remove-user USER_ID
+</code>
+</pre>
