@@ -12,7 +12,7 @@ Jelly Bean’s user profiles are far away from perfect, but still they are usefu
 To manage user accounts you will need
 <a href="https://play.google.com/store/apps/details?id=jackpal.androidterm" target="_blank">Terminal Emulator</a>.
 First of all, switch to the root account using <code>su</code> command.
-You can check your user and group id typing: <code>id</code> (should return: <code>uid=0(root) gid=0(root)</code>).
+You can check your user and group typing: <code>id</code>.
 
 Now you can create a new user typing:
 <pre>
