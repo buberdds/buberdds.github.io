@@ -75,7 +75,7 @@ You can click on it, if you have multiple clients connected you can switch betwe
 In the Elements Tab you will find the markup of debugging website, and CSS.
 
 The <code>Resource</code> tab is limited to Session Storage, Local Storage and Databases.
-<br />The <code>Network</code> tab is limited to XHR request only.
+The <code>Network</code> tab is limited to XHR request only.
 
 Weinre's inspector is very limited. It's not working on all webkit browser, but it is the best options for older Android/iOS devices.
 
