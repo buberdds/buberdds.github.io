@@ -74,10 +74,10 @@ On your desktop computer you will see a new client connected to weinre server:
 You can click on it, if you have multiple clients connected you can switch between them just clicking on their name.
 In the Elements Tab you will find the markup of debugging website, and CSS.
 
-The <code>Resource</code> is limited to Session Storage, Local Storage and Databases.
-The <code>Network</code> tab is limited to XHR request only.
+The <code>Resource</code> tab is limited to Session Storage, Local Storage and Databases.
+<br />The <code>Network</code> tab is limited to XHR request only.
 
-Weinre is very limited. It's not working on all webkit browser, but it is the best options for older Android/iOS devices.
+Weinre's inspector is very limited. It's not working on all webkit browser, but it is the best options for older Android/iOS devices.
 
 <h2>Adobe Edge Inspect</h2>
 Adobe released own inspector. They use a hosted weinre server on Adobe.com.
