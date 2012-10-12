@@ -34,7 +34,9 @@ You can switch between users via command line:
 </pre>
 
 As you can see, you have to type the user id. You can also switch using graphic interface. Just press and hold Power button.
+<p>
 <img src="/images/Multiple_user_accounts_inside_Android_4_1/Multiple_user_accounts_photo2.jpg" alt="Android multiple user accounts" />
+</p>
 
 To get list of all users on current device, type:
 <pre>
