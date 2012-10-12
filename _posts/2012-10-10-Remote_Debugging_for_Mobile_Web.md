@@ -49,9 +49,9 @@ To list all of available options type <code>weinre --help</code>. So to start re
     weinre --httpPort [portNumber] --boundHost [hostname | ip address]
 </code></pre>
 
-In your browser navigate to weinre server. You'll find link to script, which you can inject into your site
+In your browser navigate to weinre server. You'll find link to script, which you can inject into your site, while you are in development environment:
 <pre><code>
-    &lt;script src="http://&lt;ADDRESS&gt;:&lt;PORT&gt;/target/target-script-min.js#anonymous"&gt;&lt;/script&gt;
+    &lt;script src="http://&lt;ADDRESS&gt;/target/target-script-min.js#anonymous"&gt;&lt;/script&gt;
 </code></pre>
 
 There is also bookmarklet, which allow you to inspect any web page you are viewing.
