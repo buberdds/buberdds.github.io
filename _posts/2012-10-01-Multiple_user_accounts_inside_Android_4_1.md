@@ -15,6 +15,8 @@ To manage user accounts you will need
 First of all, switch to the root account using <code>su</code> command.
 You can check your user and group typing: <code>id</code>.
 
+<img src="/images/Multiple_user_accounts_inside_Android_4_1/Multiple_user_accounts_photo1.jpg" alt="Android multiple user accounts" />
+
 Now you can create a new user:
 <pre>
 <code>
@@ -32,6 +34,7 @@ You can switch between users via command line:
 </pre>
 
 As you can see, you have to type the user id. You can also switch using graphic interface. Just press and hold Power button.
+<img src="/images/Multiple_user_accounts_inside_Android_4_1/Multiple_user_accounts_photo2.jpg" alt="Android multiple user accounts" />
 
 To get list of all users on current device, type:
 <pre>
