@@ -51,7 +51,7 @@ To list all of available options type <code>weinre --help</code>. So to start re
 
 In your browser navigate to weinre server. You'll find link to script, which you can inject into your site
 <pre><code>
-    <script src="http://<ADDRESS>:<PORT>/target/target-script-min.js#anonymous"></script>
+    &lt;script src="http://<ADDRESS>:<PORT>/target/target-script-min.js#anonymous"></script&gt;
 </code></pre>
 
 There is also bookmarklet, which allow you to inspect any web page you are viewing.
