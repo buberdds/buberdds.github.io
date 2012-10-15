@@ -44,7 +44,7 @@ You can install Weinre using a <a href="http://nodejs.org/download/" target="_bl
 
 Weinre server takes a few arguments. Most usefull are <code>httpPort</code> and <code>boundHost</code>. boundHost enables
 access to the server from any other machine, because its default value is <code>localhost</code>, it's useful to change it.
-To list all of available options type <code>weinre --help</code>. So to start remote debugging choose a free port and type in your ip address/hostname.
+To list all of the options type <code>weinre --help</code>. So to start remote debugging choose a free port and type in your ip address/hostname.
 <pre><code>
     weinre --httpPort [portNumber] --boundHost [hostname | ip address]
 </code></pre>
