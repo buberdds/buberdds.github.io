@@ -84,3 +84,21 @@ Adobe released its own inspector. They use a hosted weinre server on Adobe.com.
 Don't know why I should use it while I can run a local weinre server anywhere, on any OS.
 The main advantage is the synchronized browsing and refreshing on all connected devices, but usually you’ll be searching
 for a bug on a specific device. Moreover, this option is <strong>not for free</strong>. You have to buy Creative Cloud plan or pay monthly for upgraded version of Edge Inspect.
+
+<h2>Opera Dragonfly</h2>
+
+Debugging Opera Mobile is available only on Android devices. This is the most user friendly debugging option so far.
+On your desktop Opera open Dragonfly <code>Ctrl + Shift + I</code> and choose the <code>Remote Debug Configuration</code> icon.
+
+<p>
+<img class="articlePhoto" src="/images/Remote_Debugging_for_Mobile_Web/dragonfly1.png" alt="Remote Debugging for Mobile Web" />
+</p>
+
+The only one configuration step is to set a port number.
+
+In Opera Mobile navigate to:
+
+<pre><code>opera:debug</code></pre>
+
+In the debug window fill in IP address of your desktop computer and the chosen port number, tap <code>connect</code> button.
+You'll be able to debug any opened website in Mobile Opera via the desktop Dragonfly.
