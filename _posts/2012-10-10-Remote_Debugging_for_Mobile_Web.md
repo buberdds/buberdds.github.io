@@ -5,7 +5,7 @@ desc: Remote Debugging for Mobile Web
 ---
 
 <h2>Chrome for Android</h2>
-Inspecting remote devices with the desktop Chrome Dev Tools has been the best option so far.  The only disadvantage is of course
+Inspecting remote devices with the desktop Chrome Dev Tools is the best option so far.  The only disadvantage is of course
 limitation to Android 4+ devices, older versions are left behind. Now, all you need is to have Android SDK on your desktop and
 Chrome on your mobile device. As usual you communicate via ADB so connect your device using USB wire.
 Launch Chrome and enable debugging <code>Settings > Advanced > Developer tools > Enable USB Web debugging</code>.
@@ -87,7 +87,7 @@ for a bug on a specific device. Moreover, this option is <strong>not for free</s
 
 <h2>Opera Dragonfly</h2>
 
-Debugging Opera Mobile is available only on Android devices. This is the most user friendly debugging option so far.
+Debugging Opera Mobile is available only on Android devices. This is the most user friendly debugging option.
 On your desktop Opera open Dragonfly <code>Ctrl + Shift + I</code> and choose the <code>Remote Debug Configuration</code> icon.
 
 <p>
