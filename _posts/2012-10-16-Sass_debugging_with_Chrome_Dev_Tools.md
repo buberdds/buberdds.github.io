@@ -25,9 +25,9 @@ It enables options such as:
 
 You have to compile Sass with the <code>--debug-info</code> turned on.
 
-Every CSS rule has additional info which is used by the Dev Tools (or other plug):
+Every CSS rule has additional info which is used by the Dev Tools:
 <pre><code>
-    @media -sass-debug-info{filename{font-family:&lt;SOURCE&gt;}line{font-family:&lt;LINE_NUMBER&gt;}}
+    @media -sass-debug-info{filename{font-family:&lt;SRC&gt;}line{font-family:&lt;LINE&gt;}}
 </code></pre>
 
 
