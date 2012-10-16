@@ -4,8 +4,6 @@ title: Sass debugging with Chrome Dev Tools
 desc: Sass debugging with Chrome Dev Tools
 ---
 
-<h2>Sass debugging with Chrome Dev Tools</h2>
-
 Support for Sass landed in Chrome. To enable the new debugging option type in Chrome:
 
 <pre><code>chrome://flags</code></pre>
@@ -27,9 +25,9 @@ It enables options such as:
 
 You have to compile Sass with the <code>--debug-info</code> turned on.
 
-Every CSS rule has additional info which is used by the Dev Tools:
+Every CSS rule has additional info which is used by the Dev Tools (or other plug):
 <pre><code>
-    @media -sass-debug-info{filename{font-family:<PATH_TO_SOURCE>}line{font-family:<LINE_NUMBER>}}
+    @media -sass-debug-info{filename{font-family:&lt;SOURCE&gt;}line{font-family:&lt;LINE_NUMBER&gt;}}
 </code></pre>
 
 
