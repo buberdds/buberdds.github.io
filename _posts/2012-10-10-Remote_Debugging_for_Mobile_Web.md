@@ -91,7 +91,7 @@ Debugging Opera Mobile is available only on Android devices. This is the most us
 On your desktop Opera open Dragonfly <code>Ctrl + Shift + I</code> and choose the <code>Remote Debug Configuration</code> icon.
 
 <p>
-<img class="articlePhoto" src="/images/Remote_Debugging_for_Mobile_Web/dragonfly1.png" alt="Remote Debugging for Mobile Web" />
+<img class="articlePhoto" src="/images/Remote_Debugging_for_Mobile_Web/dragonfly1.jpg" alt="Remote Debugging for Mobile Web" />
 </p>
 
 The only one configuration step is to set a port number.
