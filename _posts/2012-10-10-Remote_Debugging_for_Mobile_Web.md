@@ -102,3 +102,31 @@ In Opera Mobile navigate to:
 
 In the debug window fill in IP address of your desktop computer and the chosen port number, tap <code>connect</code> button.
 You'll be able to debug any opened website in Mobile Opera via the desktop Dragonfly.
+
+
+<h2>Firefox</h2>
+
+You can debug Android devices using Firefox too. Connect your mobile device via USB to a host machine and forward the TCP connection using adb:
+
+<code>
+<pre>
+adb forward tcp:[portNumber] tcp:[portNumber]
+</pre>
+</code>
+
+On your desktop computer navigate to <code>about:config</code> and set the <code>devtools.debugger.remote-enabled</code> property to <code>true</code>.
+After restarting, Firefox will reveal a new option in the menu bar (tools -> web developer): <code>Remote Debugger</code>.
+
+You have to enable the same property in Firefox for Android. When you navigate to the <code>about:config</code> type in a search box <code>devtools</code>.
+You will see a list of devtools properties, set the <code>devtools.debugger.remote-enabled</code> to <code>true</code> and the <code>debugger.force-local</code> to <code>false</code>.
+
+To start a remote connection, you have to know the IP address of your mobile device (Settings -> Wi-Fi -> tap a name of your active connection).
+On your desktop choose the <code>Remote debugger</code> and fill in IP address of your mobile device and a forwarded via adb port number.
+You will see a connection prompt and you have 3 seconds to press OK.
+
+In the Firefox 16 the remote debugger is limited to Javascript only.
+The web console will be available in the version 19. Debugger will support CSS/Network etc., better late than never.
+
+
+
+
