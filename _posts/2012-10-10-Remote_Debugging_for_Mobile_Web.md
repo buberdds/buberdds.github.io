@@ -106,13 +106,9 @@ You'll be able to debug any opened website in Mobile Opera via the desktop Drago
 
 <h2>Firefox</h2>
 
-You can debug Android devices using Firefox too. Connect your mobile device via USB to a host machine and forward the TCP connection using adb:
+You can debug Android devices using Firefox too. Connect your mobile device via the USB to a host machine and forward the TCP connection using adb (yes, you need Android SDK):
 
-<code>
-<pre>
-adb forward tcp:[portNumber] tcp:[portNumber]
-</pre>
-</code>
+<code><pre>adb forward tcp:[portNumber] tcp:[portNumber]</pre></code>
 
 On your desktop computer navigate to <code>about:config</code> and set the <code>devtools.debugger.remote-enabled</code> property to <code>true</code>.
 After restarting, Firefox will reveal a new option in the menu bar (tools -> web developer): <code>Remote Debugger</code>.
@@ -124,7 +120,8 @@ To start a remote connection, you have to know the IP address of your mobile dev
 On your desktop choose the <code>Remote debugger</code> and fill in IP address of your mobile device and a forwarded via adb port number.
 You will see a connection prompt and you have 3 seconds to press OK.
 
-In the Firefox 16 the remote debugger is limited to Javascript only.
+In the Firefox 16 the remote debugger is limited to Javascript only and when I saw it, I was disappointed.
+
 The web console will be available in the version 19. Debugger will support CSS/Network etc., better late than never.
 
 
